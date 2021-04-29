@@ -120,7 +120,6 @@ li{
 }
 .nav-link:hover{
     border-radius: 0.3rem;
-    background-color: red;
 }
 .ham{
     display: none;
@@ -343,8 +342,8 @@ a.btn:active{
 }
 .service-container{
     display: flex;
-    margin: 7rem;
-    padding: 3rem;
+    margin: 1rem;
+    padding: 1rem;
 }
 .services p{
     width: 100%;
@@ -468,7 +467,7 @@ a.btn:active{
     border: 4px solid red;
     width: 29rem;
     height: 29rem;
-    object-fit: fill;
+    object-fit: cover;
     overflow: hidden;
     transition: all 300ms ease-in-out;
 }
@@ -487,6 +486,7 @@ a.btn:active{
 
 /* footer */
 footer{
+    margin-top: 3rem;
     background-color: black;
     text-align: center;
 }
@@ -496,7 +496,7 @@ footer span{
 .contact-center {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   gap: 2rem;
+   gap: 1rem;
 }
 .title h2{
     color: orange;
@@ -540,7 +540,10 @@ form .btn{
    .contact-center{
        display: flex;
        flex-direction: column;
-       gap: 0;
+       /* gap: 0; */
+   }
+   .contact-center .left{
+       margin-left: 3rem;
    }
    form input{
        width: 80%;
