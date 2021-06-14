@@ -353,6 +353,7 @@ a.btn:active{
     margin: 2rem;
     height: 100%;
     text-align: center;
+    width: 60%;
 }
 .services span{
     font-size: 4rem;
@@ -407,7 +408,7 @@ a.btn:active{
     background-color: red;
 }
 .skills-box .html5{
-    width: 95%;
+    width: 85%;
 }
 .skills-box .css{
     width: 80%;
@@ -418,13 +419,27 @@ a.btn:active{
 .skills-box .c{
     width: 70%;
 }
+.skills-box .react{
+    width: 50%;
+}
+.skills-box .node{
+    width: 50%;
+}
+.skills-box .exp{
+    width: 40%;
+}
+.skills-box .mongo{
+    width: 20%;
+}
 .skills-box i:hover{
     color: red  ;
 }
 .skills-box{
     margin: 4rem;
 }
+.skills-right{
 
+}
 .skill-center{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -432,7 +447,7 @@ a.btn:active{
     margin-bottom: 7rem;
     margin-top: 5rem;
 }
-.skills-right h2{
+/* .skills-right h2{
     color: black;
     margin-bottom: 3rem;
 }
@@ -442,7 +457,7 @@ a.btn:active{
 }
 .skills-right p{
     color: black;
-}
+} */
 @media only screen and (max-width:852px){
    .skill-center{
        display: flex;
