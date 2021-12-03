@@ -74,16 +74,16 @@ new TypeIt("#type2", {
   loop: true,
   waitUntilVisible: true,
 })
-  .type("Nitian", { delay: 400 })
-  .pause(500)
-  .delete(9)
-  .type("Designer", { delay: 400 })
-  .pause(500)
-  .delete(9)
-  .type("Developer", { delay: 400 })
-  .pause(500)
-  .delete(9)
-  .go();
+  // .type("Nitian", { delay: 400 })
+  // .pause(500)
+  // .delete(9)
+  // .type("Designer", { delay: 400 })
+  // .pause(500)
+  // .delete(9)
+  // .type("Developer", { delay: 400 })
+  // .pause(500)
+  // .delete(9)
+  // .go();
 
 gsap.from(".logo h1", { opacity: 0, duration: 1, delay: 0.5, y: -10 });
 gsap.from(".ham", { opacity: 0, duration: 1, delay: 1, x: 20 });
